@@ -1,0 +1,57 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ateam-train-me-on-ai-gcc",
+  "version": "1.0.0",
+  "description": "A personal AI coach for founders, business owners and non-technical teams in the GCC. It trains you on your own business and real tasks, in Arabic or English: how to ask, check the answer, work with numbers, research, build routines and delegate, with a plan and log of what you learnt and the time it saves. It helps you solve everyday GCC business problems with AI, from WhatsApp enquiries and Arabic-English documents to tenders and compliance paperwork, checks AI vendors' proposals before you sign, and helps you keep sensitive data out of AI tools.",
+  "author": {
+    "name": "ATeam Soft Solutions",
+    "url": "https://www.ateamsoftsolutions.com"
+  },
+  "homepage": "https://github.com/ateamsoftsolutio/ateam-train-me-on-ai-gcc",
+  "repository": "https://github.com/ateamsoftsolutio/ateam-train-me-on-ai-gcc",
+  "license": "MIT",
+  "keywords": [
+    "gcc",
+    "uae",
+    "saudi-arabia",
+    "qatar",
+    "kuwait",
+    "bahrain",
+    "oman",
+    "arabic",
+    "ai-training",
+    "founders",
+    "small-business",
+    "ai-adoption",
+    "vendor-proposals",
+    "data-safety"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Train Me on AI for GCC",
+        "shortDescription": "AI coaching for GCC founders",
+        "longDescription": "Train Me on AI for GCC is a personal AI coach for founders, business owners and non-technical teams in the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman.\n\nIt teaches by doing, on your own business and in Arabic or English: each short session takes one of your real tasks, such as a WhatsApp reply to a customer, an Arabic contract summary, a sales spreadsheet, a tender or a weekly report, and shows you how to ask, check the answer, work with numbers, research with sources, turn what works into a routine and delegate whole jobs. A plan and log record what you learnt and the time it saves, in your own estimates.\n\nIt helps you solve GCC business problems with AI: bring one problem and get practical options, or map up to 12 uses across your business by the time at stake, the route and the risk, marking which you can do yourself today, which need a no-code tool and which need a build partner. It points to the official GCC places for tax, e-invoicing, tenders and staffing rules, without giving legal or tax advice. And it checks AI vendors' proposals before you sign: scope, success measures, costs, data handling and where data is kept, ownership, lock-in and claims about accuracy.\n\nData safety runs through all of it: what never goes into an AI tool, Gulf ID numbers and health data included, which account settings to check, and privacy-law notes for each GCC country and the DIFC, ADGM and QFC.\n\nThree skills: train-me-on-ai, ai-opportunity-map and ai-proposal-check. Instructions only: no servers, hooks or scripts. Practical guidance, not legal, tax, investment or medical advice.",
+        "developerName": "ATeam Soft Solutions",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://www.ateamsoftsolutions.com",
+        "privacyPolicyURL": "https://github.com/ateamsoftsolutio/ateam-train-me-on-ai-gcc/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/ateamsoftsolutio/ateam-train-me-on-ai-gcc/blob/main/LICENSE",
+        "supportURL": "https://github.com/ateamsoftsolutio/ateam-train-me-on-ai-gcc/issues",
+        "defaultPrompt": [
+          "Train me on AI for my business",
+          "Help me solve this business problem with AI",
+          "Check this AI proposal before I sign"
+        ],
+        "brandColor": "#000000",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
