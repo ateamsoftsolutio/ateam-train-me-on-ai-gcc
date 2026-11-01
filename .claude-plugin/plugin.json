@@ -1,0 +1,29 @@
+{
+  "name": "ateam-train-me-on-ai-gcc",
+  "displayName": "Train Me on AI for GCC by ATeam",
+  "version": "1.0.0",
+  "description": "A personal AI coach for founders, business owners and non-technical teams in the GCC. It trains you on your own business and real tasks, in Arabic or English: how to ask, check the answer, work with numbers, research, build routines and delegate, with a plan and log of what you learnt and the time it saves. It helps you solve everyday GCC business problems with AI, from WhatsApp enquiries and Arabic-English documents to tenders and compliance paperwork, checks AI vendors' proposals before you sign, and helps you keep sensitive data out of AI tools.",
+  "author": {
+    "name": "ATeam Soft Solutions",
+    "url": "https://www.ateamsoftsolutions.com"
+  },
+  "homepage": "https://www.ateamsoftsolutions.com",
+  "repository": "https://github.com/ateamsoftsolutio/ateam-train-me-on-ai-gcc",
+  "license": "MIT",
+  "keywords": [
+    "gcc",
+    "uae",
+    "saudi-arabia",
+    "qatar",
+    "kuwait",
+    "bahrain",
+    "oman",
+    "arabic",
+    "ai-training",
+    "founders",
+    "small-business",
+    "ai-adoption",
+    "vendor-proposals",
+    "data-safety"
+  ]
+}
