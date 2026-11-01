@@ -1,0 +1,16 @@
+{
+  "name": "ateam-train-me-gcc",
+  "owner": {
+    "name": "ATeam Soft Solutions"
+  },
+  "metadata": {
+    "description": "AI training plugins for founders and business owners in the GCC, from ATeam Soft Solutions."
+  },
+  "plugins": [
+    {
+      "name": "ateam-train-me-on-ai-gcc",
+      "source": "./",
+      "description": "A personal AI coach for GCC founders and non-technical teams: training on your own tasks in Arabic or English, help solving GCC business problems with AI, and a check of AI vendors' proposals."
+    }
+  ]
+}
